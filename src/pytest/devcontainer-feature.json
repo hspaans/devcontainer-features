@@ -1,6 +1,6 @@
 {
     "id": "pytest",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Pytest (via pipx)",
     "documentationURL": "http://github.com/hspaans/devcontainers-features/tree/main/src/pytest",
     "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.",

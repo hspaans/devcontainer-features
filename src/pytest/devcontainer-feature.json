@@ -15,7 +15,7 @@
         },
         "plugins": {
             "default": "",
-            "description": "A space delimitered list of flake8 plugins (will be injected into the flake8 pipx env). see proposals for examples",
+            "description": "A space delimitered list of pytest plugins (will be injected into the pytest pipx env). see proposals for examples",
             "proposals": [
                 "pytest-testinfra"
             ],

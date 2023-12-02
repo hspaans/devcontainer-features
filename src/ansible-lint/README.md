@@ -1,13 +1,13 @@
 
-# Pytest (via pipx) (pytest)
+# Ansible Lint (via pipx) (ansible-lint)
 
-The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
+ansible-lint checks playbooks for practices and behavior that could potentially be improved.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/pytest:1": {}
+    "ghcr.io/hspaans/devcontainer-features/ansible-lint:1": {}
 }
 ```
 
@@ -16,10 +16,10 @@ The pytest framework makes it easy to write small tests, yet scales to support c
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | version | Select the version to install. | string | latest |
-| plugins | A space delimitered list of pytest plugins (will be injected into the pytest pipx env). see proposals for examples | string | - |
+| plugins | A space delimitered list of ansible-lint plugins (will be injected into the ansible-lint pipx env). see proposals for examples | string | - |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/hspaans/devcontainer-features/blob/main/src/pytest/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/hspaans/devcontainer-features/blob/main/src/ansible-lint/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

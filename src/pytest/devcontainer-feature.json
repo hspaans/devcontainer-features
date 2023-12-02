@@ -1,0 +1,29 @@
+{
+    "id": "pytest",
+    "version": "1.0.0",
+    "name": "Pytest (via pipx)",
+    "documentationURL": "http://github.com/hspaans/devcontainers-features/tree/main/src/pytest",
+    "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.",
+    "options": {
+        "version": {
+            "default": "latest",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        },
+        "plugins": {
+            "default": "",
+            "description": "A space delimitered list of flake8 plugins (will be injected into the flake8 pipx env). see proposals for examples",
+            "proposals": [
+                "pytest-testinfra"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/pipx-package",
+        "ghcr.io/devcontainers/features/python"
+    ]
+}

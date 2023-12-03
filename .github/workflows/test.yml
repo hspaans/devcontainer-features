@@ -1,3 +1,4 @@
+---
 name: "CI - Test Features"
 on:
   push:
@@ -13,8 +14,8 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - ansible-lint
+          - pytest
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -34,8 +35,8 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - ansible-lint
+          - pytest
     steps:
       - uses: actions/checkout@v4
 

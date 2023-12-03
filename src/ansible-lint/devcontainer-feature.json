@@ -1,6 +1,6 @@
 {
   "id": "ansible-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Ansible Lint (via pipx)",
   "documentationURL": "http://github.com/hspaans/devcontainers-features/tree/main/src/ansible-lint",
   "description": "ansible-lint checks playbooks for practices and behavior that could potentially be improved.",
@@ -21,8 +21,8 @@
     }
   },
   "installsAfter": [
-    "ghcr.io/devcontainers-contrib/features/ansible",
     "ghcr.io/devcontainers-contrib/features/pipx-package",
-    "ghcr.io/devcontainers/features/python"
+    "ghcr.io/devcontainers/features/python",
+    "ghcr.io/devcontainers-contrib/features/ansible"
   ]
 }

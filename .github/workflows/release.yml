@@ -16,13 +16,12 @@ jobs:
 
       - name: "Publish Features"
         uses: devcontainers/action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           publish-features: "true"
           base-path-to-features: "./src"
           generate-docs: "true"
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create PR for Documentation
         id: push_image_info

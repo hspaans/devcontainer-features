@@ -2,7 +2,6 @@
     "test": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "ghcr.io/devcontainers-contrib/features/ansible:1": {},
             "ansible-lint": {}
         }
     }

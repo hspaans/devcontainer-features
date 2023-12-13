@@ -16,7 +16,6 @@ jobs:
         features:
           - ansible-lint
           - pytest
-          - sshpass
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -39,7 +38,6 @@ jobs:
         features:
           - ansible-lint
           - pytest
-          - sshpass
     steps:
       - uses: actions/checkout@v4
 

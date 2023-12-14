@@ -15,6 +15,7 @@ jobs:
       matrix:
         features:
           - ansible-lint
+          - pyadr
           - pytest
           - sshpass
         baseImage:
@@ -38,6 +39,7 @@ jobs:
       matrix:
         features:
           - ansible-lint
+          - pyadr
           - pytest
           - sshpass
     steps:

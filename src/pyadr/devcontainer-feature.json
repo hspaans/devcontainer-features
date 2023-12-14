@@ -1,0 +1,23 @@
+{
+  "id": "pyadr",
+  "version": "1.0.0",
+  "name": "PyADR (via pipx)",
+  "documentationURL": "http://github.com/hspaans/devcontainers-features/tree/main/src/pyadr",
+  "licenseURL": "http://github.com/hspaans/devcontainers-features/tree/main/LICENSE",
+  "description": "With PyADR you can easily create ADRs (Architecture Decision Records) in Markdown format.",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Select the version to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/pipx-package",
+    "ghcr.io/devcontainers/features/python",
+    "ghcr.io/devcontainers/features/git"
+  ]
+}

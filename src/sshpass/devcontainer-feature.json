@@ -1,8 +1,9 @@
 {
   "id": "sshpass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "sshpass",
-  "documentationURL": "https://github.com/devcontainers/features/tree/main/src/github-cli",
+  "documentationURL": "https://github.com/hspaans/devcontainer-features/tree/master/src/github-cli",
+  "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
   "description": "Installs the GitHub CLI. Auto-detects latest version and installs needed dependencies.",
   "options": {
     "version": {

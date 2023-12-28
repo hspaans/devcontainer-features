@@ -1,9 +1,9 @@
 {
   "id": "pyadr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "PyADR (via pipx)",
-  "documentationURL": "http://github.com/hspaans/devcontainers-features/tree/main/src/pyadr",
-  "licenseURL": "http://github.com/hspaans/devcontainers-features/tree/main/LICENSE",
+  "documentationURL": "http://github.com/hspaans/devcontainer-features/tree/master/src/pyadr",
+  "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
   "description": "With PyADR you can easily create ADRs (Architecture Decision Records) in Markdown format.",
   "options": {
     "version": {

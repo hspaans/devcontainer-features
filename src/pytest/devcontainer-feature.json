@@ -1,9 +1,9 @@
 {
   "id": "pytest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "Pytest (via pipx)",
-  "documentationURL": "http://github.com/hspaans/devcontainers-features/tree/main/src/pytest",
-  "licenseURL": "http://github.com/hspaans/devcontainers-features/tree/main/LICENSE",
+  "documentationURL": "http://github.com/hspaans/devcontainer-features/tree/master/src/pytest",
+  "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
   "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.",
   "options": {
     "version": {

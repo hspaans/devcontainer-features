@@ -1,8 +1,9 @@
 {
   "id": "ansible-lint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Ansible Lint (via pipx)",
-  "documentationURL": "http://github.com/hspaans/devcontainers-features/tree/main/src/ansible-lint",
+  "documentationURL": "http://github.com/hspaans/devcontainer-features/tree/master/src/ansible-lint",
+  "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
   "description": "ansible-lint checks playbooks for practices and behavior that could potentially be improved.",
   "options": {
     "version": {

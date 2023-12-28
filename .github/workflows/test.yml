@@ -14,6 +14,8 @@ jobs:
     strategy:
       matrix:
         features:
+          - ansible-dev-tools
+          - ansible-development-environment
           - ansible-lint
           - pyadr
           - pytest
@@ -38,6 +40,8 @@ jobs:
     strategy:
       matrix:
         features:
+          - ansible-dev-tools
+          - ansible-development-environment
           - ansible-lint
           - pyadr
           - pytest

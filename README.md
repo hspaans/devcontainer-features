@@ -3,12 +3,12 @@
 ## Contents
 
 This repository contains following features:
+- [ansible-dev-tools](./src/ansible-dev-tools/README.md): Ansible Development Tools **(EXPERIMENTAL)**
+- [ansible-development-environment](./src/ansible-development-environment/README.md): Ansible Development Tools **(EXPERIMENTAL)**
 - [ansible-lint](./src/ansible-line/README.md): Ansible Lint
 - [pyadr](./src/pyadr/README.md): Python ADR
 - [pytest](./src/pytest/README.md): Pytest
 - [sshpass](./src/sshpass/README.md): SSH Pass for Ansible
-
-This repository contains a _collection_ of two Features - `hello` and `color`. These Features serve as simple feature implementations.  Each sub-section below shows a sample `devcontainer.json` alongside example usage of the Feature.
 
 ## Usage
 

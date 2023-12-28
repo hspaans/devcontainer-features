@@ -1,6 +1,6 @@
 {
   "id": "ansible-development-environment",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "name": "Ansible Development Ennvironment (via pipx)",
   "documentationURL": "http://github.com/hspaans/devcontainers-features/tree/main/src/ansible-development-environment",
   "description": "A pip-like install for ansible collections.",

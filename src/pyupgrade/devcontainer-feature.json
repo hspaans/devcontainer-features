@@ -1,0 +1,22 @@
+{
+  "id": "pyupgrade",
+  "version": "1.0.0",
+  "name": "Pyupgrade (via pipx)",
+  "documentationURL": "http://github.com/hspaans/devcontainer-features/tree/master/src/pyupgrade",
+  "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
+  "description": "With pyupgrade you can automatically upgrade your Python code to a more modern version of Python.",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Select the version to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/pipx-package",
+    "ghcr.io/devcontainers/features/python"
+  ]
+}

@@ -4,8 +4,7 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: weekly
-      day: saturday
+      interval: monthly
     groups:
       GitHub-Actions:
         patterns:

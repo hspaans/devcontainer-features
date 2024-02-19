@@ -3,8 +3,6 @@
 ## Contents
 
 This repository contains following features:
-- [ansible-dev-tools](./src/ansible-dev-tools/README.md): Ansible Development Tools **(EXPERIMENTAL)**
-- [ansible-development-environment](./src/ansible-development-environment/README.md): Ansible Development Tools **(EXPERIMENTAL)**
 - [ansible-lint](./src/ansible-line/README.md): Ansible Lint
 - [pyadr](./src/pyadr/README.md): Python ADR
 - [pytest](./src/pytest/README.md): Pytest

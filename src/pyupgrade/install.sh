@@ -15,7 +15,7 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/pipx-package:1.1.7" \
-    --option package='pyupgade' --option version="$VERSION"
+    --option package='pyupgrade' --option version="$VERSION"
 
 
 

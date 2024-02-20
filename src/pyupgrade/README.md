@@ -1,13 +1,13 @@
 
-# PyADR (via pipx) (pyadr)
+# Pyupgrade (via pipx) (pyupgrade)
 
-With PyADR you can easily create ADRs (Architecture Decision Records) in Markdown format.
+With pyupgrade you can automatically upgrade your Python code to a more modern version of Python.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/pyadr:1": {}
+    "ghcr.io/hspaans/devcontainer-features/pyupgrade:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ With PyADR you can easily create ADRs (Architecture Decision Records) in Markdow
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/hspaans/devcontainer-features/blob/main/src/pyadr/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/hspaans/devcontainer-features/blob/main/src/pyupgrade/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

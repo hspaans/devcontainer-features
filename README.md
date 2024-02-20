@@ -6,6 +6,7 @@ This repository contains following features:
 - [ansible-lint](./src/ansible-line/README.md): Ansible Lint
 - [pyadr](./src/pyadr/README.md): Python ADR
 - [pytest](./src/pytest/README.md): Pytest
+- [pyupgrade](./src/pyupgrade/README.md): Pyupgrade
 - [sshpass](./src/sshpass/README.md): SSH Pass for Ansible
 
 ## Usage

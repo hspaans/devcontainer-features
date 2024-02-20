@@ -17,6 +17,7 @@ jobs:
           - ansible-lint
           - pyadr
           - pytest
+          - pyupgrade
           - sshpass
         baseImage:
           - debian:latest
@@ -41,6 +42,7 @@ jobs:
           - ansible-lint
           - pyadr
           - pytest
+          - pyupgrade
           - sshpass
     steps:
       - uses: actions/checkout@v4

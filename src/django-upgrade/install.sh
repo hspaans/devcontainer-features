@@ -15,7 +15,7 @@ $nanolayer_location \
     install \
     devcontainer-feature \
     "ghcr.io/devcontainers-contrib/features/pipx-package:1.1.7" \
-    --option package='django-version' --option version="$VERSION"
+    --option package='django-upgrade' --option version="$VERSION"
 
 
 

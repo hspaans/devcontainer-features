@@ -1,0 +1,22 @@
+{
+  "id": "django-upgrade",
+  "version": "1.0.0",
+  "name": "Django-upgrade (via pipx)",
+  "documentationURL": "http://github.com/hspaans/devcontainer-features/tree/master/src/django-upgrade",
+  "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
+  "description": "With django-upgrade you can automatically upgrade your Django code to a more modern version of Django.",
+  "options": {
+    "version": {
+      "default": "latest",
+      "description": "Select the version to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/pipx-package",
+    "ghcr.io/devcontainers/features/python"
+  ]
+}

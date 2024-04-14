@@ -3,7 +3,7 @@
 ## Contents
 
 This repository contains following features:
-- [ansible-lint](./src/ansible-line/README.md): Ansible Lint
+- [ansible-lint](./src/ansible-lint/README.md): Ansible Lint
 - [django-upgrade](./src/django-upgrade/README.md): Django-upgrade
 - [pyadr](./src/pyadr/README.md): Python ADR
 - [pytest](./src/pytest/README.md): Pytest
@@ -14,7 +14,7 @@ This repository contains following features:
 
 To use the features from this repository, add the desired features to `devcontainer.json.`
 
-This example use ansiblie-lint feature on devcontainer.
+This example use ansible-lint feature on devcontainer.
 
 ```jsonc
 {

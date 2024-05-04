@@ -8,6 +8,7 @@ This repository contains following features:
 - [pyadr](./src/pyadr/README.md): Python ADR
 - [pytest](./src/pytest/README.md): Pytest
 - [pyupgrade](./src/pyupgrade/README.md): Pyupgrade
+- [rstcheck](./src/rstcheck/README.md): rstcheck
 - [sshpass](./src/sshpass/README.md): SSH Pass for Ansible
 
 ## Usage

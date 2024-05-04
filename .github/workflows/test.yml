@@ -18,6 +18,7 @@ jobs:
           - django-upgrade
           - pyadr
           - pytest
+          - pymarkdownlnt
           - pyupgrade
           - rstcheck
           - sshpass
@@ -45,6 +46,7 @@ jobs:
           - django-upgrade
           - pyadr
           - pytest
+          - pymarkdownlnt
           - pyupgrade
           - rstcheck
           - sshpass

@@ -19,6 +19,7 @@ jobs:
           - pyadr
           - pytest
           - pyupgrade
+          - rstcheck
           - sshpass
         baseImage:
           - debian:latest
@@ -45,6 +46,7 @@ jobs:
           - pyadr
           - pytest
           - pyupgrade
+          - rstcheck
           - sshpass
     steps:
       - uses: actions/checkout@v4

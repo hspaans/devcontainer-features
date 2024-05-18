@@ -20,6 +20,7 @@ jobs:
           - pytest
           - pymarkdownlnt
           - pyupgrade
+          - pycqa
           - rstcheck
           - sshpass
         baseImage:
@@ -48,6 +49,7 @@ jobs:
           - pytest
           - pymarkdownlnt
           - pyupgrade
+          - pycqa
           - rstcheck
           - sshpass
     steps:

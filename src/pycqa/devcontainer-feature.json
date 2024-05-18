@@ -1,0 +1,62 @@
+{
+  "id": "pycqa",
+  "version": "1.0.0",
+  "name": "PyCQA tools bundle (via pipx)",
+  "documentationURL": "http://github.com/hspaans/devcontainer-features/tree/master/src/pycqa",
+  "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
+  "description": "Python Code Quality Authority tools.",
+  "options": {
+    "doc8_version": {
+      "default": "latest",
+      "description": "Select the version of doc8 to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    },
+    "docformatter_version": {
+      "default": "latest",
+      "description": "Select the version of docformatter to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    },
+    "eradicate_version": {
+      "default": "latest",
+      "description": "Select the version of eradicate to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    },
+    "isort_version": {
+      "default": "latest",
+      "description": "Select the version of isort to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    },
+    "pydocstyle_version": {
+      "default": "latest",
+      "description": "Select the version of pydocstyle to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    },
+    "pyflakes_version": {
+      "default": "latest",
+      "description": "Select the version of pyflakes to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/pipx-package",
+    "ghcr.io/devcontainers/features/python"
+  ]
+}

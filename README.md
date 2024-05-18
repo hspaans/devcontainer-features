@@ -6,6 +6,7 @@ This repository contains following features:
 - [ansible-lint](./src/ansible-lint/README.md): Ansible Lint
 - [django-upgrade](./src/django-upgrade/README.md): Django-upgrade
 - [pyadr](./src/pyadr/README.md): Python ADR
+- [pycqa](./src/pycqa/README.md): PyCQA tools bundle
 - [pytest](./src/pytest/README.md): Pytest
 - [pymarkdownlnt](./src/pymarkdownlnt/README.md): PyMarkdownLinter
 - [pyupgrade](./src/pyupgrade/README.md): Pyupgrade

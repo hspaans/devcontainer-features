@@ -1,0 +1,30 @@
+{
+  "id": "pycqa",
+  "version": "1.0.0",
+  "name": "PyCQA (via pipx)",
+  "documentationURL": "http://github.com/hspaans/devcontainer-features/tree/master/src/pycqa",
+  "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
+  "description": "Python Code Quality Authority tools.",
+  "options": {
+    "eradicate_version": {
+      "default": "latest",
+      "description": "Select the version to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    },
+    "isort_version": {
+      "default": "latest",
+      "description": "Select the version to install.",
+      "proposals": [
+        "latest"
+      ],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers-contrib/features/pipx-package",
+    "ghcr.io/devcontainers/features/python"
+  ]
+}

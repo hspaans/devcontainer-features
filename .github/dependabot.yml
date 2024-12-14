@@ -6,6 +6,6 @@ updates:
     schedule:
       interval: monthly
     groups:
-      GitHub-Actions:
+      gitHub-actions:
         patterns:
           - "*"

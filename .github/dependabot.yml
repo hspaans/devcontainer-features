@@ -6,6 +6,15 @@ updates:
     schedule:
       interval: monthly
     groups:
-      GitHub-Actions:
+      gitHub-actions:
+        patterns:
+          - "*"
+
+  - package-ecosystem: devcontainers
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      devcontainers:
         patterns:
           - "*"

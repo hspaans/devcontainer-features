@@ -7,7 +7,7 @@ ansible-lint checks playbooks for practices and behavior that could potentially 
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/ansible-lint:1": {}
+    "ghcr.io/hspaans/devcontainer-features/ansible-lint:2": {}
 }
 ```
 

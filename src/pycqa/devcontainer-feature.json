@@ -1,6 +1,6 @@
 {
   "id": "pycqa",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "name": "PyCQA tools bundle (via pipx)",
   "documentationURL": "http://github.com/hspaans/devcontainer-features/tree/master/src/pycqa",
   "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
@@ -56,7 +56,7 @@
     }
   },
   "installsAfter": [
-    "ghcr.io/devcontainers-contrib/features/pipx-package",
+    "ghcr.io/devcontainers-extra/features/pipx-package",
     "ghcr.io/devcontainers/features/python"
   ]
 }

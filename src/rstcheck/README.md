@@ -7,7 +7,7 @@ Checks syntax of reStructuredText and code blocks nested within it.
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/rstcheck:1": {}
+    "ghcr.io/hspaans/devcontainer-features/rstcheck:2": {}
 }
 ```
 

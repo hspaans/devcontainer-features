@@ -7,7 +7,7 @@ PyMarkdown is primarily a GitHub Flavored Markdown linter.
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/pymarkdownlnt:1": {}
+    "ghcr.io/hspaans/devcontainer-features/pymarkdownlnt:2": {}
 }
 ```
 

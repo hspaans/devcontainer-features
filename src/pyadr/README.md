@@ -7,7 +7,7 @@ With PyADR you can easily create ADRs (Architecture Decision Records) in Markdow
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/pyadr:1": {}
+    "ghcr.io/hspaans/devcontainer-features/pyadr:2": {}
 }
 ```
 

@@ -7,7 +7,7 @@ The pytest framework makes it easy to write small tests, yet scales to support c
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/pytest:1": {}
+    "ghcr.io/hspaans/devcontainer-features/pytest:2": {}
 }
 ```
 

@@ -7,7 +7,7 @@ With pyupgrade you can automatically upgrade your Python code to a more modern v
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/pyupgrade:1": {}
+    "ghcr.io/hspaans/devcontainer-features/pyupgrade:2": {}
 }
 ```
 

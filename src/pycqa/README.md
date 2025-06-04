@@ -7,7 +7,7 @@ Python Code Quality Authority tools.
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/pycqa:1": {}
+    "ghcr.io/hspaans/devcontainer-features/pycqa:2": {}
 }
 ```
 

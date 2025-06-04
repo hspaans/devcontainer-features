@@ -7,7 +7,7 @@ With django-upgrade you can automatically upgrade your Django code to a more mod
 
 ```json
 "features": {
-    "ghcr.io/hspaans/devcontainer-features/django-upgrade:1": {}
+    "ghcr.io/hspaans/devcontainer-features/django-upgrade:2": {}
 }
 ```
 

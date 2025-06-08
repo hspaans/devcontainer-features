@@ -24,7 +24,7 @@ This example use ansible-lint feature on devcontainer.
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-    "ghcr.io/hspaans/devcontainer-features/ansible-lint:1": {}
+    "ghcr.io/hspaans/devcontainer-features/ansible-lint:2": {}
   }
 }
 ```

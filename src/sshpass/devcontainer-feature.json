@@ -2,24 +2,9 @@
   "id": "sshpass",
   "version": "1.0.1",
   "name": "sshpass",
-  "documentationURL": "https://github.com/hspaans/devcontainer-features/tree/master/src/github-cli",
+  "documentationURL": "https://github.com/hspaans/devcontainer-features/tree/master/src/sshpass",
   "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
-  "description": "Installs the GitHub CLI. Auto-detects latest version and installs needed dependencies.",
-  "options": {
-    "version": {
-      "type": "string",
-      "proposals": [
-        "latest",
-        "none"
-      ],
-      "default": "latest",
-      "description": "Select version of the GitHub CLI, if not latest."
-    },
-    "installDirectlyFromGitHubRelease": {
-      "type": "boolean",
-      "default": true
-    }
-  },
+  "description": "`sshpass` is a tool for non-interactivly performing password authentication with SSH's so called \"interactive keyboard password authentication\".",
   "installsAfter": [
     "ghcr.io/devcontainers/features/common-utils"
   ]

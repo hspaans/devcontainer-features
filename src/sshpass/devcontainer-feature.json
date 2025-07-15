@@ -13,7 +13,7 @@
         "none"
       ],
       "default": "latest",
-      "description": "Select version of the sshpass, if not latest."
+      "description": "Select version of sshpass, if not latest."
     },
     "installDirectlyFromGitHubRelease": {
       "type": "boolean",

@@ -4,7 +4,7 @@
   "name": "sshpass",
   "documentationURL": "https://github.com/hspaans/devcontainer-features/tree/master/src/sshpass",
   "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
-  "description": "Installs the sshpass. Auto-detects latest version and installs needed dependencies.",
+  "description": "Installs sshpass. Auto-detects latest version and installs needed dependencies.",
   "options": {
     "version": {
       "type": "string",

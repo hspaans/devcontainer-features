@@ -11,12 +11,7 @@ Installs sshpass. Auto-detects latest version and installs needed dependencies.
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| version | Select version of sshpass, if not latest. | string | latest |
-| installDirectlyFromGitHubRelease | - | boolean | true |
 
 
 

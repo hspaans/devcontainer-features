@@ -1,25 +1,10 @@
 {
   "id": "sshpass",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "sshpass",
   "documentationURL": "https://github.com/hspaans/devcontainer-features/tree/master/src/sshpass",
   "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
   "description": "Installs sshpass. Auto-detects latest version and installs needed dependencies.",
-  "options": {
-    "version": {
-      "type": "string",
-      "proposals": [
-        "latest",
-        "none"
-      ],
-      "default": "latest",
-      "description": "Select version of sshpass, if not latest."
-    },
-    "installDirectlyFromGitHubRelease": {
-      "type": "boolean",
-      "default": true
-    }
-  },
   "installsAfter": [
     "ghcr.io/devcontainers/features/common-utils"
   ]

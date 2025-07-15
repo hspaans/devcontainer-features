@@ -1,7 +1,7 @@
 
 # sshpass (sshpass)
 
-Installs the GitHub CLI. Auto-detects latest version and installs needed dependencies.
+Installs sshpass. Auto-detects latest version and installs needed dependencies.
 
 ## Example Usage
 
@@ -15,7 +15,7 @@ Installs the GitHub CLI. Auto-detects latest version and installs needed depende
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select version of the GitHub CLI, if not latest. | string | latest |
+| version | Select version of sshpass, if not latest. | string | latest |
 | installDirectlyFromGitHubRelease | - | boolean | true |
 
 

@@ -1,10 +1,10 @@
 {
   "id": "sshpass",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "sshpass",
-  "documentationURL": "https://github.com/hspaans/devcontainer-features/tree/master/src/github-cli",
+  "documentationURL": "https://github.com/hspaans/devcontainer-features/tree/master/src/sshpass",
   "licenseURL": "http://github.com/hspaans/devcontainer-features/tree/master/LICENSE",
-  "description": "Installs the GitHub CLI. Auto-detects latest version and installs needed dependencies.",
+  "description": "Installs sshpass. Auto-detects latest version and installs needed dependencies.",
   "options": {
     "version": {
       "type": "string",
@@ -13,7 +13,7 @@
         "none"
       ],
       "default": "latest",
-      "description": "Select version of the GitHub CLI, if not latest."
+      "description": "Select version of sshpass, if not latest."
     },
     "installDirectlyFromGitHubRelease": {
       "type": "boolean",
